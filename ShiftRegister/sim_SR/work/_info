@@ -1,0 +1,175 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.3_1 2021.08, Aug 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/dgupta/common/Desktop/ECE_527/P3/sim_Brent
+T_opt
+!s110 1734390860
+VUSjZY8CP=XnhgMbk;RI]E1
+04 3 4 work top fast 0
+=1-525400b63b2a-6760b44b-e6e8d-56ca
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.3_1;73
+vD_FF
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1734390823
+!i10b 1
+!s100 @d39BXXMN10CXVRK^lE0A2
+I0RVaBYel6DjlB4DdC45XB2
+S1
+Z4 d/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/sim_SR
+w1734374465
+8/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/D_FF.sv
+F/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/D_FF.sv
+!i122 27
+L0 1 18
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.3_1;73
+r1
+!s85 0
+31
+Z7 !s108 1734390823.000000
+!s107 /home/dgupta/common/Desktop/SV_Coding/ShiftRegister/D_FF.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/D_FF.sv|
+!i113 0
+Z8 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@d_@f@f
+vmux
+R2
+R3
+!i10b 1
+!s100 a`0F]GZk8`7DY>mg14VBR0
+IPIbDFELM4_F[RaFUUYTWa0
+S1
+R4
+w1734390816
+8/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/Mux.sv
+F/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/Mux.sv
+!i122 28
+L0 1 13
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/dgupta/common/Desktop/SV_Coding/ShiftRegister/Mux.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/Mux.sv|
+!i113 0
+R8
+R1
+vShiftRegistertesting
+R2
+Z9 DXx4 work 10 tb_sv_unit 0 22 >2NnbBoU^][EgnJHT?2BO0
+Z10 !s110 1734390824
+R5
+r1
+!s85 0
+!i10b 1
+!s100 7Yi4OehFHRngJ81I??nmg1
+IFCzXC6UbP::gimJPhZTnJ0
+Z11 !s105 tb_sv_unit
+S1
+R4
+Z12 w1734390451
+Z13 8/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/tb.sv
+Z14 F/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/tb.sv
+!i122 30
+L0 3 31
+R6
+31
+Z15 !s108 1734390824.000000
+Z16 !s107 /home/dgupta/common/Desktop/SV_Coding/ShiftRegister/tb.sv|
+Z17 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/tb.sv|
+!i113 0
+R8
+R1
+n@shift@registertesting
+vSR
+R2
+R3
+!i10b 1
+!s100 Ahh9U9W_CSLSnPLn3Goc81
+Ifg9f<TDO0A@SX6`kMM5Ve1
+S1
+R4
+w1734389340
+8/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/SR.sv
+F/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/SR.sv
+!i122 29
+L0 1 41
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/dgupta/common/Desktop/SV_Coding/ShiftRegister/SR.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/SR.sv|
+!i113 0
+R8
+R1
+n@s@r
+Xtb_sv_unit
+R2
+R10
+V>2NnbBoU^][EgnJHT?2BO0
+r1
+!s85 0
+!i10b 1
+!s100 f]KEV8Kmo8zh6BKCjz>Q`2
+I>2NnbBoU^][EgnJHT?2BO0
+!i103 1
+S1
+R4
+R12
+R13
+R14
+!i122 30
+L0 1 0
+R6
+31
+R15
+R16
+R17
+!i113 0
+R8
+R1
+vtop
+R2
+R9
+R10
+R5
+r1
+!s85 0
+!i10b 1
+!s100 73A?IOb0TZ[6QQiN7_LVK0
+IlBK=HL?9zndX7cCd_2KUP0
+R11
+S1
+R4
+R12
+R13
+R14
+!i122 30
+L0 38 174
+R6
+31
+R15
+R16
+R17
+!i113 0
+R8
+R1

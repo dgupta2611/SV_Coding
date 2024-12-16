@@ -1,0 +1,15 @@
+/home/dgupta/common/Desktop/SV_Coding/ShiftRegister/SR.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/ShiftRegister/SR.sv
+QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+-- Compiling module SR
+
+Top level modules:
+	SR
+
+} {} {}} /home/dgupta/common/Desktop/SV_Coding/ShiftRegister/D_FF.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/ShiftRegister/D_FF.sv
+QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+-- Compiling module D_FF
+
+Top level modules:
+	D_FF
+
+} {} {}}
