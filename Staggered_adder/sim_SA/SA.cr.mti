@@ -1,0 +1,22 @@
+/home/dgupta/common/Desktop/SV_Coding/Staggered_adder/cla4bit.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/Staggered_adder/cla4bit.sv
+QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+-- Compiling module cla4bit
+
+Top level modules:
+	cla4bit
+
+} {} {}} /home/dgupta/common/Desktop/SV_Coding/Staggered_adder/cla8bit.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/Staggered_adder/cla8bit.sv
+QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+-- Compiling module cla8bit
+
+Top level modules:
+	cla8bit
+
+} {} {}} /home/dgupta/common/Desktop/SV_Coding/Staggered_adder/staggeradder.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/Staggered_adder/staggeradder.sv
+QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+-- Compiling module StaggeredAdd
+
+Top level modules:
+	StaggeredAdd
+
+} {} {}}

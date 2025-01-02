@@ -2,9 +2,9 @@ module cla4bit #(
     parameter N = 4
 ) (
     input [N-1:0] A, B,
-    input cin,
+    input CI,
     output logic [N-1:0] S,
-    output logic cout
+    output logic CO
 );
 
     logic [N-1:0] P, G, C; 
