@@ -1,7 +1,7 @@
 module register #(parameter ADDRWIDTH = 6)(
     input load, 
     input [ADDRWIDTH-1:0] din,
-    oitput logic [ADDRWIDTH-1:0] dout
+    output logic [ADDRWIDTH-1:0] dout
     );
 
     logic [ADDRWIDTH-1:0] m;
@@ -29,25 +29,25 @@ module Upcounter #(parameter ADDRWIDTH = 6)(
         if(load)
             count <= din;
         else if(en)
-            count <= count + 1;  
+            count <= count + 1'b 1;  
         else count <= count;     
     end
     
 endmodule
 
-module comparator #(parameter ADDRWIDTH = 6) (
-    input din_b, din_a,
-    ouput logic aEQb
-    );
-
-    assign aEQb = (din_b == din_a) ? 1 : 0;
-    
-endmodule
+//module comparator #(parameter ADDRWIDTH = 6) (
+//    input [ADDRWIDTH-1:0] din_b, din_a,
+//    output logic aEQb
+//    );
+//
+//    assign aEQb = (din_b === din_a) ? 1 : 0;
+//endmodule
 
 module Memory #(parameter ADDRWIDTH = 6, DATAWIDTH = 8) (
     input [ADDRWIDTH-1:0] addr,
     input [DATAWIDTH-1:0] din,
     input we,
+    input clock,
     output logic [DATAWIDTH-1:0] dout
     );
 
@@ -55,18 +55,18 @@ module Memory #(parameter ADDRWIDTH = 6, DATAWIDTH = 8) (
 
     assign dout = mem[addr];
 
-    always_ff @(posedge clock ) begin
+    always_ff @(posedge clock) begin
         if(we)
-            mem[addr] = din;
-        else mem[addr] = mem[addr];
+            mem[addr] <= din;
+        else mem <= mem;
     end
     
 endmodule
 
-module MUX #(parameter ADDRWIDTH = 6, N = 2)(
-    input [N-1:0][ADDRWIDTH-1:0] V,
+module MUX #(parameter WIDTH = 6, N = 2)(
+    input [N-1:0][WIDTH-1:0] V,
     input [$clog2(N)-1:0] S,
-    ouput logic [ADDRWIDTH-1:0] Y
+    output logic [WIDTH-1:0] Y
     );
 
     assign Y = V[S];
@@ -79,13 +79,13 @@ module JK_FF(
     );
 
     always_ff @(posedge clock) begin
-        if({J,K} == 2b'11) 
+        if({J,K} == 2'b11) 
             Q <= ~Q;
         else if({J,K} == 2'b10)
-            Q <= 1b'1;
+            Q <= 1'b1;
         else if({J,K} == 2'b01)
-            Q <= 1b'0;
-        else ({J,K} == 2'b00)
+            Q <= 1'b0;
+        else if({J,K} == 2'b00)
             Q <= Q;
     end
            
@@ -107,9 +107,9 @@ module datapath(clock, ld_high, ld_low, addr, din, write, set_busy,
     input cnt_en;
     input addr_sel;
     input zero_we;
-    output cnt_eq;
-    output [DATAWIDTH-1:0] dout;
-    output busy;
+    output logic cnt_eq;
+    output logic [DATAWIDTH-1:0] dout;
+    output logic busy;
  
     logic [ADDRWIDTH-1:0] dout1, dout2, dout_up;
 
@@ -119,18 +119,24 @@ module datapath(clock, ld_high, ld_low, addr, din, write, set_busy,
 
     Upcounter #(ADDRWIDTH) UP_Inst(clock, ld_cnt, cnt_en, dout2, dout_up);   
 
-    comparator #(ADDRWIDTH) comp_Inst(dout1, dout_up, cnt_eq);
+   // comparator #(ADDRWIDTH) comp_Inst(dout1, dout_up, cnt_eq);
+
+    assign cnt_eq = (dout1 === dout_up);
 
     logic [DATAWIDTH-1:0] memDatIn;
     logic [ADDRWIDTH-1:0] memAdrIn;
 
     MUX #(.N(2), .WIDTH(ADDRWIDTH)) mux1_Inst(.V({dout_up, addr}), .S(addr_sel), .Y(memAdrIn));
 
-    MUX #(.N(2), .WIDTH(ADDRWIDTH)) mux2_Inst(.V({{DATAWIDTH{1'b0}}, din}), .S(addr_sel), .Y(memDatIn));
+    MUX #(.N(2), .WIDTH(DATAWIDTH)) mux2_Inst(.V({{DATAWIDTH{1'b0}}, din}), .S(addr_sel), .Y(memDatIn));
 
     JK_FF JK_Inst(set_busy, clr_busy, clock, busy);
 
-    Memory #(ADDRWIDTH, DATAWIDTH) mem_Inst(memAdrIn, memDatIn, .we(write|zero_we), dout);
+    logic OR;
+
+    assign OR = write | zero_we;
+
+    Memory #(ADDRWIDTH, DATAWIDTH) mem_Inst(memAdrIn, memDatIn, OR, clock, dout);
 
 
 endmodule

@@ -1,0 +1,341 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.3_1 2021.08, Aug 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/dgupta/common/Desktop/SV_Coding/Staggered_adder/sim_SA
+T_opt
+!s110 1737004353
+VTdkeQkeN=8VJIcQNjP<K02
+04 2 4 work tb fast 0
+=1-525400b63b2a-67889540-ef663-22c4
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.3_1;73
+vcomparator
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1736994238
+!i10b 1
+!s100 Ch4;Ybl6j0D67@iRWNLWO1
+I02RPmm3EVB8Xi592Hdl8<2
+S1
+Z3 d/home/dgupta/common/Desktop/SV_Coding/Controller/sim
+w1736984260
+Z4 8/home/dgupta/common/Desktop/SV_Coding/Controller/Datapath.sv
+Z5 F/home/dgupta/common/Desktop/SV_Coding/Controller/Datapath.sv
+!i122 224
+L0 38 8
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.3_1;73
+r1
+!s85 0
+31
+!s108 1736994238.000000
+Z8 !s107 /home/dgupta/common/Desktop/SV_Coding/Controller/Datapath.sv|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/Controller/Datapath.sv|
+!i113 0
+Z10 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vController
+R2
+!s110 1736220020
+!i10b 1
+!s100 :5DBjI8OkXbLzb8c=hl@z1
+I:z>=mEi[M:c85Al?OeUTG2
+S1
+R3
+w1736219493
+Z11 8/home/dgupta/common/Desktop/SV_Coding/Controller/Controller.sv
+Z12 F/home/dgupta/common/Desktop/SV_Coding/Controller/Controller.sv
+!i122 26
+L0 1 64
+R6
+R7
+r1
+!s85 0
+31
+!s108 1736220020.000000
+Z13 !s107 /home/dgupta/common/Desktop/SV_Coding/Controller/Controller.sv|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/Controller/Controller.sv|
+!i113 0
+R10
+R1
+n@controller
+vdatapath
+R2
+Z15 !s110 1737004345
+!i10b 1
+!s100 OfIhm`eQeG`2:@N?cT_DK3
+I`Nk2=bDE8N_:`Xl6SS8Dn3
+S1
+R3
+Z16 w1736994399
+R4
+R5
+!i122 288
+L0 95 48
+R6
+R7
+r1
+!s85 0
+31
+Z17 !s108 1737004345.000000
+R8
+R9
+!i113 0
+R10
+R1
+vJK_FF
+R2
+R15
+!i10b 1
+!s100 e3:3hTUO3jfKFko8JO@^W1
+IX_JflBNIZM3C7AGVBNTdV3
+S1
+R3
+R16
+R4
+R5
+!i122 288
+L0 76 17
+R6
+R7
+r1
+!s85 0
+31
+R17
+R8
+R9
+!i113 0
+R10
+R1
+n@j@k_@f@f
+vMemory
+R2
+R15
+!i10b 1
+!s100 aV^>7iQ0LdPX@8^>>a<JA0
+I[`>[]RmMdo1K@GD:GURWP2
+S1
+R3
+R16
+R4
+R5
+!i122 288
+L0 46 19
+R6
+R7
+r1
+!s85 0
+31
+R17
+R8
+R9
+!i113 0
+R10
+R1
+n@memory
+vMemoryZeroController
+R2
+R15
+!i10b 1
+!s100 7P9WJFDG8c^;a5U2ARHCh3
+I3[OlU=RfO5=e5B5MOSL9i2
+S1
+R3
+w1736981425
+R11
+R12
+!i122 287
+L0 1 70
+R6
+R7
+r1
+!s85 0
+31
+R17
+R13
+R14
+!i113 0
+R10
+R1
+n@memory@zero@controller
+vMUX
+R2
+R15
+!i10b 1
+!s100 FnlZ;QSVWA@]hjiV?L8173
+I:A[G^hb8RTzInBdM3U7B>0
+S1
+R3
+R16
+R4
+R5
+!i122 288
+L0 66 9
+R6
+R7
+r1
+!s85 0
+31
+R17
+R8
+R9
+!i113 0
+R10
+R1
+n@m@u@x
+vmz
+R2
+Z18 !s110 1737004346
+!i10b 1
+!s100 kh_h>EoH?bnaX7LJz9iOQ0
+I:XSf9F?DPnGF^@M2d;36D0
+S1
+R3
+w1736973992
+8/home/dgupta/common/Desktop/SV_Coding/Controller/mz.sv
+F/home/dgupta/common/Desktop/SV_Coding/Controller/mz.sv
+!i122 289
+L0 1 47
+R6
+R7
+r1
+!s85 0
+31
+R17
+!s107 /home/dgupta/common/Desktop/SV_Coding/Controller/mz.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/Controller/mz.sv|
+!i113 0
+R10
+R1
+vregister
+R2
+R15
+!i10b 1
+!s100 ZhcnN@g<_[9ke2<Y<ihok0
+Ii`n[2=8UU29ihg:i4nCmW2
+S1
+R3
+R16
+R4
+R5
+!i122 288
+L0 1 15
+R6
+R7
+r1
+!s85 0
+31
+R17
+R8
+R9
+!i113 0
+R10
+R1
+vtb
+R2
+R18
+!i10b 1
+!s100 HH8H`U65c^A5bTb_X96bm2
+I9=am4bUMUPQk]YALU9lDG1
+S1
+R3
+w1737004336
+8/home/dgupta/common/Desktop/SV_Coding/Controller/tb.sv
+F/home/dgupta/common/Desktop/SV_Coding/Controller/tb.sv
+!i122 290
+L0 1 251
+R6
+R7
+r1
+!s85 0
+31
+!s108 1737004346.000000
+!s107 /home/dgupta/common/Desktop/SV_Coding/Controller/tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/Controller/tb.sv|
+!i113 0
+R10
+R1
+vUpcounter
+R2
+R15
+!i10b 1
+!s100 ^4iZ[Xe8=VKjme_>98D2H3
+ID0NgeIe^=g0:IL][:c`F:2
+S1
+R3
+R16
+R4
+R5
+!i122 288
+L0 17 20
+R6
+R7
+r1
+!s85 0
+31
+R17
+R8
+R9
+!i113 0
+R10
+R1
+n@upcounter
