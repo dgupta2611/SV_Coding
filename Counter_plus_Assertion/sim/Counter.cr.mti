@@ -1,8 +1,15 @@
-/home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Counter.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Counter.sv
+/home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/tb.sv
 QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
--- Compiling module Counter
+-- Compiling module tb
 
 Top level modules:
-	Counter
+	tb
+
+} {} {}} /home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Assertion.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Assertion.sv
+QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+-- Compiling module counterassertions
+
+Top level modules:
+	counterassertions
 
 } {} {}}
