@@ -1,4 +1,11 @@
-/home/dgupta/common/Desktop/SV_Coding/Controller/Datapath.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/Controller/Datapath.sv
+/home/dgupta/common/Desktop/SV_Coding/Controller/mz.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/Controller/mz.sv
+QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+-- Compiling module mz
+
+Top level modules:
+	mz
+
+} {} {}} /home/dgupta/common/Desktop/SV_Coding/Controller/Datapath.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/Controller/Datapath.sv
 QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
 -- Compiling module register
 -- Compiling module Upcounter
@@ -9,13 +16,6 @@ QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
 
 Top level modules:
 	datapath
-
-} {} {}} /home/dgupta/common/Desktop/SV_Coding/Controller/mz.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/Controller/mz.sv
-QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
--- Compiling module mz
-
-Top level modules:
-	mz
 
 } {} {}} /home/dgupta/common/Desktop/SV_Coding/Controller/Controller.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/Controller/Controller.sv
 QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021

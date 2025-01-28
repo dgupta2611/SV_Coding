@@ -1,0 +1,8 @@
+/home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Counter.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Counter.sv
+QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}}

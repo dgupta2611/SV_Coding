@@ -1,0 +1,100 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.3_1 2021.08, Aug 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/dgupta/common/Desktop/SV_Coding/Controller/sim
+T_opt
+!s110 1737170879
+V`LB45zggTVJCjHSUG8K9f0
+04 2 4 work tb fast 0
+=1-525400b63b2a-678b1fbe-e48ab-318a
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.3_1;73
+vCounter
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1737170871
+!i10b 1
+!s100 _[eMf]TdN`c;V0Bm<nLF<0
+I7?g96=@Kd=ZRB_O0W]EOn0
+S1
+Z4 d/home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/sim
+w1737145025
+8/home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Counter.sv
+F/home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Counter.sv
+!i122 41
+L0 1 56
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.3_1;73
+r1
+!s85 0
+31
+Z7 !s108 1737170871.000000
+!s107 /home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Counter.sv|
+!i113 0
+Z8 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@counter
+vcounterassertions
+R2
+R3
+!i10b 1
+!s100 B212o^_FEYiUKATTnY`A>1
+IfUoGL9YUMXQV[^C3Eka9c0
+S1
+R4
+w1737169838
+8/home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Assertion.sv
+F/home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Assertion.sv
+!i122 40
+L0 1 97
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Assertion.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/Assertion.sv|
+!i113 0
+R8
+R1
+vtb
+R2
+R3
+!i10b 1
+!s100 V5<P]mbhFa7jP4l9aaQ>m3
+I[?CdK?GS^b<=Ab>L]]ETb3
+S1
+R4
+w1737170866
+8/home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/tb.sv
+F/home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/tb.sv
+!i122 42
+L0 1 29
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/Counter_plus_Assertion/tb.sv|
+!i113 0
+R8
+R1
