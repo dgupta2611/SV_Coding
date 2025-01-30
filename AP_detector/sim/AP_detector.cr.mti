@@ -1,0 +1,10 @@
+/home/dgupta/common/Desktop/SV_Coding/AP_detector/AP_detector.sv {1 {vlog -work work -vopt -sv -stats=none /home/dgupta/common/Desktop/SV_Coding/AP_detector/AP_detector.sv
+QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+-- Compiling module AP_detector
+-- Compiling module subtractor_1bit
+-- Compiling module subtractor_8bit
+
+Top level modules:
+	AP_detector
+
+} {} {}}
