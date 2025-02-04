@@ -1,3 +1,6 @@
+`define DELAY(n) repeat(n) @(negedge clk)
+
+
 module tb;
     parameters DATAWIDTH = 8; 
     parameter  ADDRWIDTH = 3;
