@@ -44,7 +44,6 @@ module tb;
                                     .addr_w2(addr_w2_mem1), .data_w1(data_w1_mem1), .data_w2(data_w2_mem1),
 				   					.en_r1_n(en_r1_mem1), .en_r2_n(en_r2_mem1), .addr_r1(addr_r1_mem1), .addr_r2(addr_r2_mem1),
                                     .data_r1(data_r1_mem1), .data_r2(data_r2_mem1));
-
     
 
     always begin
@@ -224,6 +223,8 @@ module tb;
     //         $display("asso[%s] = %0h", i.name(), asso[i]);			
     // endtask
 
+
+
     initial begin
 
         mem0_dyn = new[2**ADDRWIDTH];
@@ -267,6 +268,10 @@ module tb;
         LoadMemoryFromEachEndOfArray(1);
         $display("\n----- Displaying data of LoadMemoryFromEachEndOfArray mem = 1----");
         printmem();
+
+        $display("\n--------- Self Checking testbench Starts----------");
+
+        
 
         `DELAY(5);
         $stop;
