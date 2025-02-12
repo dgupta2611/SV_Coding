@@ -47,7 +47,7 @@ module ram #(
                  mem <= '0;
             else if(!en_w1_n)
                  mem[addr_w1] <= data_w1;
-            else if(!en_w2_n && (addr_w1 !== addr_w2))
+            else if(!en_w2_n /*&& (addr_w1 !== addr_w2)*/)
                  mem[addr_w2] <= data_w2;
             else if((!en_w1_n && !en_w2_n) && (addr_w1 === addr_w2))
                  mem[addr_w1] <= data_w1;
@@ -61,7 +61,7 @@ module ram #(
                  mem <= '0;
             else if(!en_w1_n)
                  mem[addr_w1] <= data_w1;
-            else if(!en_w2_n && (addr_w1 !== addr_w2))
+            else if(!en_w2_n /*&& (addr_w1 !== addr_w2)*/)
                  mem[addr_w2] <= data_w2;
             else if((!en_w1_n && !en_w2_n) && (addr_w1 === addr_w2))
                  mem[addr_w1] <= data_w1;

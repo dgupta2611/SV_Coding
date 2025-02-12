@@ -37,6 +37,17 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
 !s11f vlog 2021.3_1 2021.08, Aug 15 2021
 13
 !s112 1.1
@@ -44,89 +55,109 @@ R0
 !i10e 25
 !i10f 100
 cModel Technology
-d/home/dgupta/common/Desktop/SV_Coding/AP_detector/sim
+Z1 d/home/dgupta/common/Desktop/SV_Coding/AP_detector/sim
 T_opt
 !s110 1738800672
 VEiH[4^94DMF3_JYHR;ZRJ2
-04 2 4 work tb fast 0
+Z2 04 2 4 work tb fast 0
 =1-525400b63b2a-67a3fe1f-bd1b2-19c
-!s124 OEM100
-o-quiet -auto_acc_if_foreign -work work +acc
-Z1 tCvgOpt 0
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
 n@_opt
-OL;O;2021.3_1;73
+Z6 OL;O;2021.3_1;73
+R1
+T_opt1
+!s110 1739389754
+VM3C_Z]AB7Wc2cNjzkzJfV2
+R2
+=1-525400b63b2a-67acfb39-bc508-3cb9
+R3
+o-quiet -auto_acc_if_foreign -work work
+R5
+n@_opt1
+R6
+R1
+T_opt2
+!s110 1739401050
+V`cR@<5:G9FiR4FdImLbWz2
+R2
+=1-525400b63b2a-67ad2759-caa7b-7ee2
+R3
+R4
+R5
+n@_opt2
+R6
 vram
-Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1738800664
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z8 !s110 1739401031
 !i10b 1
-!s100 JXleB8GN5]I=gz>22bm_K1
-I9Lnj1>8DMlYCBV0W[U6M[2
+!s100 H[DLR3N^fZCOgjMnaK7Q32
+IG1@AG`k;NOlab3;F@31TI1
 S1
-Z4 d/home/dgupta/common/Desktop/SV_Coding/RAM_FF/sim
-w1738800660
+Z9 d/home/dgupta/common/Desktop/SV_Coding/RAM_FF/sim
+w1739399292
 8/home/dgupta/common/Desktop/SV_Coding/RAM_FF/ram.sv
 F/home/dgupta/common/Desktop/SV_Coding/RAM_FF/ram.sv
-!i122 121
-L0 1 76
-Z5 VDg1SIo80bB@j0V0VzS_@n1
-Z6 OL;L;2021.3_1;73
+!i122 165
+L0 1 118
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2021.3_1;73
 r1
 !s85 0
 31
-!s108 1738800663.000000
+Z12 !s108 1739401031.000000
 !s107 /home/dgupta/common/Desktop/SV_Coding/RAM_FF/ram.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/RAM_FF/ram.sv|
 !i113 0
-Z7 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-vtb
-R2
-DXx4 work 10 tb_sv_unit 0 22 I;bZ?]z4h4h6A5Z6Fd[1f1
-R3
+Z13 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R5
-r1
-!s85 0
-!i10b 1
-!s100 lIAY;h=lG=X9V@YJAPGDS0
-IbPH7=fBcSW<f7=jA4F]RT3
-!s105 tb_sv_unit
-S1
-R4
-Z8 w1738800648
-Z9 8/home/dgupta/common/Desktop/SV_Coding/RAM_FF/tb.sv
-Z10 F/home/dgupta/common/Desktop/SV_Coding/RAM_FF/tb.sv
-!i122 122
-L0 6 270
-R6
-31
-Z11 !s108 1738800664.000000
-Z12 !s107 /home/dgupta/common/Desktop/SV_Coding/RAM_FF/tb.sv|
-Z13 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/RAM_FF/tb.sv|
-!i113 0
+vtb
 R7
-R1
+!s110 1739401032
+!i10b 1
+!s100 jzfMS73@:=4BK_6b:T7K42
+IROzW?KaL[ZRV]K[g[zO=92
+S1
+R9
+w1739401011
+8/home/dgupta/common/Desktop/SV_Coding/RAM_FF/tb_selfcheck.sv
+F/home/dgupta/common/Desktop/SV_Coding/RAM_FF/tb_selfcheck.sv
+!i122 167
+L0 5 253
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 /home/dgupta/common/Desktop/SV_Coding/RAM_FF/tb_selfcheck.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/RAM_FF/tb_selfcheck.sv|
+!i113 0
+R13
+R5
 Xtb_sv_unit
-R2
-R3
-VI;bZ?]z4h4h6A5Z6Fd[1f1
+R7
+R8
+VChJjTYzKdUTjTWYYaoiog3
 r1
 !s85 0
 !i10b 1
-!s100 ^Z[]QH7I_MFH`DbAFbV]>0
-II;bZ?]z4h4h6A5Z6Fd[1f1
+!s100 2lmfOF7EA]7n?L8b=gcbo3
+IChJjTYzKdUTjTWYYaoiog3
 !i103 1
 S1
-R4
-R8
 R9
-R10
-!i122 122
+w1738805619
+8/home/dgupta/common/Desktop/SV_Coding/RAM_FF/tb.sv
+F/home/dgupta/common/Desktop/SV_Coding/RAM_FF/tb.sv
+!i122 166
 L0 4 0
-R6
-31
 R11
+31
 R12
-R13
+!s107 /home/dgupta/common/Desktop/SV_Coding/RAM_FF/tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/RAM_FF/tb.sv|
 !i113 0
-R7
-R1
+R13
+R5
