@@ -1,0 +1,46 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.3_1 2021.08, Aug 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/dgupta/common/Desktop/SV_Coding/RAM_FF/sim
+T_opt
+!s110 1739751695
+VYd]=Qb:42h?DM80cfe>eQ3
+04 3 4 work mda fast 0
+=1-525400b63b2a-67b2810e-c6402-1079
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2021.3_1;73
+vmda
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1739751680
+!i10b 1
+!s100 em7YfCGc@HT>Cn;Af?a4S1
+I3fRAMMG1Nd<5ChY6`jXV31
+S1
+d/home/dgupta/common/Desktop/SV_Coding/string_concept/sim
+w1739751677
+8/home/dgupta/common/Desktop/SV_Coding/string_concept/string.sv
+F/home/dgupta/common/Desktop/SV_Coding/string_concept/string.sv
+!i122 1
+L0 1 64
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2021.3_1;73
+r1
+!s85 0
+31
+!s108 1739751679.000000
+!s107 /home/dgupta/common/Desktop/SV_Coding/string_concept/string.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/dgupta/common/Desktop/SV_Coding/string_concept/string.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
